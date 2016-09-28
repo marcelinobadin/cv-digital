@@ -1,3 +1,163 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <div class="col-md-3 m-t-1">
+    <div class="card">
+      <img class="card-img-top header-avatar" src="../assets/images/avatar.png" alt="Profile Picture">
+      <div class="card-block">
+        <h4 class="card-title header-name">Marcelino Badin</h4>
+        <p class="card-text header-text"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;São Paulo, Brazil</p>
+        <p class="card-text header-text"><a href="tel:+5511992793279"><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;+55 11 992793279</a></p>
+        <p class="card-text header-text" style="font-size: 14px;"><a href="mailto:marcelinobadin@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;marcelinobadin@gmail.com</a></p>
+        <p class="card-text header-text"><a href="http://linkedin.com/in/marcelinobadin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;/marcelinobadin</a></p>
+        <p class="card-text header-text"><a href="http://github.com/marcelinobadin" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i>&nbsp;/marcelinobadin</a></p>
+        <p class="card-text header-text"><a href="https://join.skype.com/yI3nuG0VOZBK" target="_blank"><i class="fa fa-skype" aria-hidden="true"></i>&nbsp;marcelinobadin</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-9 m-t-1">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs m-b-1" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#experience" role="tab">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#education" role="tab">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#skills" role="tab">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#projects" role="tab">Relevant Projects</a>
+      </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div class="tab-pane active" id="experience" role="tabpanel">
+        <div class="card">
+          <div class="card-block">
+            <h4 class="card-title">Co-Founder</h4>
+            <h6 class="card-subtitle">INDRA Digital Systems Engineering</h6>
+            <p class="card-text experience-period">Since sep/2014 (actual)</p>
+            <p class="card-text text-justified experience-text">
+              The startup was founded to provided a platform for mobile development that offers an indoor positioning system. This platform was built on top JAVA using Spring, MariaDB, Elasticsearch for indexed data and geo data, and exposed as a RESTful API and the UI built using Angular. Also there was a Android library developed to calculate the user position based on iBeacons.
+              The infrastructure runs on AWS and Google Cloud through Kubernets (and Docker - Infrastruture as a code).
+              I did implement a DevOps using Atlassian tools for issue management, using Agile Scrum methodology and using as mantra unit and integration tests running on a Continuous Integration environment (based on Bamboo and Bitbucket).
+              The platform is up and running but the funding has ended and project put on hold (<a href="http://www.indra.com.br" target="_blank">http://www.indra.com.br</a>).
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-block">
+            <h4 class="card-title">Associate Manager</h4>
+            <h6 class="card-subtitle">Accenture Consulting</h6>
+            <p class="card-text experience-period">From mar/2010 to aug/2014</p>
+            <p class="card-text experience-text">
+              I have played a role as solution architect on the Technology Architecture team and one of the pioneers delivering web oriented applications using NodeJS, AngularJS and Java.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-block">
+            <h4 class="card-title">Intern</h4>
+            <h6 class="card-subtitle">EMBRAPA Intrumentation</h6>
+            <p class="card-text experience-period">From aug/2009 to dec/2009</p>
+            <p class="card-text experience-text">
+              I have develop a conditioning system applied to cheap sensors (made of carbon) on Embrapa's Wireless Sensors Network - final graduation project.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-block">
+            <h4 class="card-title">Co-Founder</h4>
+            <h6 class="card-subtitle">INDRA Consulting</h6>
+            <p class="card-text experience-period">From abr/2000 to dec/2003</p>
+            <p class="card-text experience-text">
+              INDRA was first created to provide internet solutions, creating personalized solutions and selling a internet stores based on a framework internally developed.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="education" role="tabpanel">
+        <div class="card">
+          <div class="card-block">
+            <h4 class="card-title">USP - Escola de Engenharia de São Carlos</h4>
+            <h6 class="card-subtitle">Electrical Engineering</h6>
+            <p class="card-text experience-period">Class of 2009</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">Languages</div>
+          <div class="card-block">
+            <div class="list-group">
+              <div class="list-group-item list-group-item-action">
+                <h5 class="list-group-item-heading">English</h5>
+                <p class="list-group-item-text">Fluent</p>
+              </div>
+              <div class="list-group-item list-group-item-action">
+                <h5 class="list-group-item-heading">Portuguese (Brazilian)</h5>
+                <p class="list-group-item-text">Native</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="skills" role="tabpanel">
+        <div class="card">
+          <div class="card-block">
+            <span class="tag tag-pill tag-default">Java</span>
+            <span class="tag tag-pill tag-default">Javascript</span>
+            <span class="tag tag-pill tag-default">NodeJS</span>
+            <span class="tag tag-pill tag-default">Spring</span>
+            <span class="tag tag-pill tag-default">Karma</span>
+            <span class="tag tag-pill tag-default">Gulp</span>
+            <span class="tag tag-pill tag-default">Elasticsearch</span>
+            <span class="tag tag-pill tag-default">NoSQL</span>
+            <span class="tag tag-pill tag-default">SQL</span>
+            <span class="tag tag-pill tag-default">Websockets</span>
+            <span class="tag tag-pill tag-default">AngularJS</span>
+            <span class="tag tag-pill tag-default">REST Pattern</span>
+            <span class="tag tag-pill tag-default">Fullstack Engineer</span>
+            <span class="tag tag-pill tag-default">Kubernetes</span>
+            <span class="tag tag-pill tag-default">Android</span>
+            <span class="tag tag-pill tag-default">iBeacon</span>
+            <span class="tag tag-pill tag-default">Indoor Positioning Systems</span>
+            <span class="tag tag-pill tag-default">Docker</span>
+            <span class="tag tag-pill tag-default">Microservices</span>
+            <span class="tag tag-pill tag-default">Continuous Integration</span>
+            <span class="tag tag-pill tag-default">Unit tests</span>
+            <span class="tag tag-pill tag-default">Integration tests</span>
+            <span class="tag tag-pill tag-default">Jira</span>
+            <span class="tag tag-pill tag-default">Sonarqube</span>
+            <span class="tag tag-pill tag-default">Ionic</span>
+            <span class="tag tag-pill tag-default">Bluetooth</span>
+            <span class="tag tag-pill tag-default">RFID</span>
+            <span class="tag tag-pill tag-default">Arduino</span>
+            <span class="tag tag-pill tag-default">IoT</span>
+            <span class="tag tag-pill tag-default"> C </span>
+            <span class="tag tag-pill tag-default">Agile</span>
+            <hr class="m-a-1">
+            <span class="tag tag-pill tag-default">Project Management</span>
+            <span class="tag tag-pill tag-default">Leadership</span>
+            <span class="tag tag-pill tag-default">Methodology</span>
+            <span class="tag tag-pill tag-default">Driver</span>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="projects" role="tabpanel">
+        <div class="card">
+          <div class="card-block">
+            <h4 class="card-title">Co-Founder</h4>
+            <h6 class="card-subtitle">INDRA Digital Systems Engineering</h6>
+            <p class="card-text experience-period">Since sep/2014 (actual)</p>
+            <p class="card-text text-justified experience-text">
+              The startup was founded to provided a platform for mobile development that offers an indoor positioning system. This platform was built on top JAVA using Spring, MariaDB, Elasticsearch for indexed data and geo data, and exposed as a RESTful API and the UI built using Angular. Also there was a Android library developed to calculate the user position based on iBeacons.
+              The infrastructure runs on AWS and Google Cloud through Kubernets (and Docker - Infrastruture as a code).
+              I did implement a DevOps using Atlassian tools for issue management, using Agile Scrum methodology and using as mantra unit and integration tests running on a Continuous Integration environment (based on Bamboo and Bitbucket).
+              The platform is up and running but the funding has ended and project put on hold (<a href="http://www.indra.com.br" target="_blank">http://www.indra.com.br</a>).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

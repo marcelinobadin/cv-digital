@@ -1,0 +1,46 @@
+/* unvisited link */
+a:link {
+  color: dimgrey;
+}
+
+/* visited link */
+a:visited {
+  color: dimgray;
+}
+
+/* mouse over link */
+a:hover {
+  color: grey;
+}
+
+/* selected link */
+a:active {
+  color: grey;
+}
+
+.header-name {
+  font-family: 'Ubuntu Mono', monospace;
+  text-align: center;
+}
+
+.header-text {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 16px;
+  text-align: left;
+}
+
+.header-avatar {
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+  width: 100%;
+}
+
+.experience-text {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 16px;
+}
+
+.experience-period {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12px;
+}
